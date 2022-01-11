@@ -1,0 +1,38 @@
+@import "./song";
+@import "./player";
+@import "./library";
+@import "./nav";
+
+@import "./colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2 {
+  color: $dark-gray;
+}
+h3,
+h4 {
+  font-weight: 300;
+  color: $light-gray;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  transition: all 0.5s ease;
+}
+.if-library-active {
+  margin-left: 30%;
+}
